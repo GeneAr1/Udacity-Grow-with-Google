@@ -7,3 +7,17 @@ You've learned a lot about web development so far. I want you to take a moment t
 ---
 
 Your response goes here!
+
+* Main new skill/skills I have leaned so far in this course.  They do not really involve HTML I already had a good handle on 
+  HTML thanks to past coursed.  I decided to use version control and a new Code/text editor.   I am teaching myself Git/Github using Udacity 
+  free coursed.  I have also been learning VScode as a text editor,  I really like it a lot has taken a little time do to learning 
+  curve.  My last editor was Notpad++
+
+* Having already completed a other beginer courses like this one in the past I found to be not easy but not really challenging.
+
+* Most difficult thing I have found so far is actually reading the index files for the project and mockup article.  Without punctuation I 
+  had to read each one over quite a few times to find all the places where I needed to put HTML elements in order to match the desired PNG or 
+  PDF.
+
+
+Gene Arsenault    
