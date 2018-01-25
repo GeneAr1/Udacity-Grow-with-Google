@@ -1,1 +1,32 @@
 /* add your CSS here */
+
+#card{
+    box-sizing: content-box;
+    width:330px;
+    background-color: rgb(224, 208, 184);
+    /* padding:10px; */
+    border: 8px ridge rgba(144,141,164,0.43);
+    border-radius: 6px;
+    box-shadow:5px 5px rgba(6, 6, 17, 0.43);
+    /* background: #B79891;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #94716B, #B79891);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, #94716B, #B79891); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main-image{
+    padding:10px;
+    width:300px;
+}
+
+.title{
+    padding:10px;
+    color: rgb(167, 31, 31);
+}
+
+
+.lower-info{
+    padding:10px;
+
+   
+}
