@@ -1,32 +1,58 @@
 /* add your CSS here */
 
-.card {
-    /* box-sizing:border-box; */
-    width:340px;
+.animal-card {
+    /* box-sizing:content-box; */
+    width:330px;
     background-color: darkkhaki;
+    /* background-size: 340px; */
     border: 8px ridge rgba(144,141,164,0.43);
-    border-radius: 6px;
-    box-shadow:5px 5px rgba(6, 6, 17, 0.43);
-    /* background: #B79891;  fallback for old browsers */
-    /* background: -webkit-linear-gradient(to bottom, #94716B, #B79891);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to bottom, #94716B, #B79891); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    border-radius: 10px;
+    box-shadow:5px 10px rgba(6, 6, 17, 0.43);
 }
 
 .main-image { 
-    background-position: center;
-    padding:10px;
+    padding:0px;
+    margin:auto;
     width:300px;
+    height: 200px;
+    border:solid thin;
+    border-radius: 3px;
+    display: block;
+
 }
 
 .title {
-    padding:10px;
+    margin:5px 5px 8px 5px;
+    text-align: center;
+    padding:2px;
     color: rgb(41, 12, 12);
 }
 
+span{
+    font-weight: bold;
+}
+
+.int-fact{
+    width: 290px;
+    padding:10px;
+ }
+
+
+.box{
+    padding:0px;
+    margin:15px;
+    width:300px;
+    border:solid thin;
+    border-radius: 3px;
+    display: block;  
+}
+
+.un-list {
+    width:290px;
+    padding: 0px;
+}
 
 .lower-info {
+    width:290px;
     padding:10px;
-
-   
 }
