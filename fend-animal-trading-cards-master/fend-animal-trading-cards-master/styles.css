@@ -9,7 +9,7 @@ body {
     /* background-size: 340px; */
     border: 8px ridge rgba(144,141,164,0.43);
     border-radius: 10px;
-    box-shadow:5px 10px rgba(6, 6, 17, 0.43);
+    box-shadow:5px 10px rgba(6, 6, 17, 0.671);
 }
 
 .main-image { 
