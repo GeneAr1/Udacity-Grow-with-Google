@@ -63,6 +63,15 @@ span{
 
 .lower-info {
     width:295px;
-    padding:10px;
+    padding:5px;
     margin:2px;
+    font-size: small;
+}
+.supscr{
+    color:red;
+    font-size: large;
+}
+.footnote{
+    font-size: small;
+    color:red;
 }
