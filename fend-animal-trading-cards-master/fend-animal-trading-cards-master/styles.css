@@ -58,7 +58,7 @@ span{
 .un-list {
     width:300px;
     padding: 0px;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .lower-info {
