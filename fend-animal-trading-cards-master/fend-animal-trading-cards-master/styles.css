@@ -1,5 +1,7 @@
 /* add your CSS here */
-body {
+/* 1/27/18 made changes according to suggestions on design in formums
+ */
+.cardBody {
     color:black;
 }
 .animal-card {
@@ -31,7 +33,7 @@ body {
     color:black;
 }
 
-span{
+.catagoryName {
     font-weight: bold;
 }
 
@@ -51,7 +53,7 @@ span{
     width:300px;
     border:solid thin;
     border-radius: 10px;
-    background-color:rgb(179, 176, 176);
+    background-color:rgb(216, 209, 209);
     display: block;  
 }
 
@@ -59,6 +61,9 @@ span{
     width:300px;
     padding: 0px;
     /* background-color: beige; */
+}
+.animalFact {
+    list-style-type: none;
 }
 
 .lower-info {
@@ -68,10 +73,10 @@ span{
     font-size: small;
 }
 .supscr{
-    color:red;
+    color:black;
     font-size: large;
 }
 .footnote{
     font-size: small;
-    color:red;
+    color:black;
 }

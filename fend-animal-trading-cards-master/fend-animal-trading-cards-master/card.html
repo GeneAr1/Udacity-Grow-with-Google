@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+	<!-- 1/28/18 Made changes the HTML to incorporate some of the
+	suggestions made on slack and forums about the project
+	
+	> added better class name,  added two more class labels in the li section
+	> removed the bullets from list item don't now how I missed that requiremtn
+	> removed color from footer and superscript,  red was poor choice never thought of 
+	> color blind people
+	> did not change some of the other items suggested in the formu,  rubic says
+	> resemble the card from design prototype not match exactly.
+	-->
 
 <head>
 	<meta charset="utf-8">
@@ -7,7 +17,7 @@
 	<title>Animal Trading Cards</title>
 </head>
 
-<body>
+<body class="cardBody">
 	<div class="animal-card">
 		<!-- your favorite animal's name goes here -->
 		<h3 class="title">
@@ -16,7 +26,7 @@
 			</strong>
 		</h3>
 		<!-- your favorite animal's image goes here -->
-		<img class="main-image" src="willowudacity_cr.png" alt="Canis lupus willowsus familiaris">
+		<img class="main-image" src="http://res.cloudinary.com/geneaarcloud/image/upload/v1516983404/willowudacity_cr_fvwkgp.png" alt="Canis lupus willowsus familiaris">
 		<div class="box">
 			<!-- your favorite animal's interesting fact goes here -->
 			<p class="int-fact">Fearless protector of home and family. Keeping squirrels, socks and avacodos in-check since 2017.
@@ -25,22 +35,21 @@
 			<div class="un-list">
 				<ul>
 					<!-- your favorite animal's list items go here -->
-					<li>
-						<span>Scientific Name</span>:
-						<em>Canem dominus magnum familiaris</em>
+					<li class="animalFact">
+						<span class="catagoryName">Scientific Name</span>:<em>Canem dominus magnum familiaris</em>
 					</li>
-					<li>
-						<span>Life Span</span>: 11-14 years.</li>
-					<li>
-						<span>Average Size</span>: 50-58 pounds.</li>
-					<li>
-						<span>Mortal Enemies</span>: Squirrels, socks and avacodos</li>
-					<li>
-						<span>Secret ability</span>: "Able to hold 8 oz. of liquid in mouth and dribble in places you can not possibly imagine"</li>
-					<li>
-						<span>Position</span>: Head of Household, "Primary Food Taster" and leftover disposal expert.</li>
-					<li>
-						<span>Secret Desire</span>: to be a pocket-book puppy for some celebrity</li>
+					<li class="animalFact">
+						<span class="catagoryName">Life Span</span>: 11-14 years.</li>
+					<li class="animalFact">
+						<span class="catagoryName">Average Size</span>: 50-58 pounds.</li>
+					<li class="animalFact">
+						<span class="catagoryName">Mortal Enemies</span>: Squirrels, socks and avacodos</li>
+					<li class="animalFact">
+						<span class="catagoryName">Secret ability</span>: "Able to hold 8 oz. of liquid in mouth and dribble in places you can not possibly imagine"</li>
+					<li class="animalFact">
+						<span class="catagoryName">Position</span>: Head of Household, "Primary Food Taster" and leftover disposal expert.</li>
+					<li class="animalFact">
+						<span class="catagoryName">Secret Desire</span>: to be a pocket-book puppy for some celebrity</li>
 				</ul>
 			</div>
 			<hr>
@@ -51,7 +60,9 @@
 				cats and local squirrel population.</p>
 			</p>
 			<hr>
-			<p class="footnote"> <sup class="supscr">1</sup> Willow may have the body language of a brave dog but its all an act.  Reality is she is a timid but loveable bundle of energy.</p>
+			<p class="footnote">
+				<sup class="supscr">1</sup> Willow may have the body language of a brave dog but its all an act. Reality is she is a timid but loveable bundle
+				of energy.</p>
 		</div>
 	</div>
 </body>
