@@ -5,6 +5,11 @@
 
 function makeGrid() {
 
+    var gridHeight;
+    var gridWidth;
+
+    
+
 // Your code goes here!
 
 }
